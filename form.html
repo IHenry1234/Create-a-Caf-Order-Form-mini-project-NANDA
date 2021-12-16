@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Coffee Order Form
+        </title>
+        <script>
+            </script>
+    </head>
+    <body>
+        <h1> Cafe Order Form </h1>
+        <form name="myForm" action="GET" onsubmit="return testResults()"> 
+            Name <input type="text" id="fname" required> 
+           <h3>Which coffee would you like to order?</h3>
+           Turkish Coffe $3<input type="radio" name="typeofCoffee1" value="radio_button1"><br>
+           American Coffee $5 <input type="radio" name="typeofCoffee2" value="radio_button2"><br>
+           Iced Latte $7 <input type="radio" name="typeofCoffee3" value="radio_button3"><br>
+           <h3> Do you need any extras? </h3>
+           <input type="checkbox" id="extra1"> Extra coffee $1.50 <br>
+           <input type="checkbox" id="extra2"> Whipped Cream $2.00 <br>
+           <input type="checkbox" id="extra3"> Extra caramel $3.00 <br>
+           <h3> What Size ? </h3>
+           <select name="size">
+               <option value="Small">Small $1.50</option>
+               <option value="Medium">Medium $2.50</option>
+               <option value="Large">Large $3.50</option>
+           </select>
+           <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
